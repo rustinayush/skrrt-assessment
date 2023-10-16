@@ -1,0 +1,69 @@
+.swiper-container-wrapper{
+  padding: 0 20px;
+
+  
+  
+}
+
+/* Style the Swiper container */
+.swiper-container {
+  margin: 20px auto;
+  width: 100%;
+  max-width: 100%;
+  
+  
+}
+
+/* Style the Swiper slides */
+.swiper-container-button .swiper-slide {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 40px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  background-color: #fff9e5;
+
+}
+
+/* Style the Swiper slides on hover */
+.swiper-slide:hover {
+  transform: scale(1.05);
+}
+
+/* Style the Swiper slide content */
+
+
+.swiper-slide2 img {
+  max-width: 95%;
+  height: 300px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+/* Style the Swiper slide text */
+.swiper-slide div {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+}
+
+/* Style Swiper navigation buttons */
+.swiper-container-button .swiper-button-next,
+.swiper-container-button .swiper-button-prev {
+  display: none !important;
+}
+
+
+
+
+img{
+  max-width: 100%; /* Set the maximum width to 100% to ensure it scales down proportionally */
+  max-height: 400px;
+}
+
+
+.text-part{
+  text-align: left;
+}

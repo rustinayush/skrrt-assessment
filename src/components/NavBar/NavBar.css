@@ -1,0 +1,11 @@
+.sticky-nav {
+  position: sticky;
+  top: 0;
+  background-color: #fff; /* Add your background color */
+  z-index: 1000; /* Adjust as needed */
+}
+
+
+
+
+

@@ -1,0 +1,77 @@
+.section2-container {
+    display: flex; /* Use flexbox to display items in a row */
+    flex-wrap: wrap; /* Allow items to wrap to the next row on smaller screens */
+    align-items: center; /* Vertically center items */
+    justify-content: space-between; /* Space between items */
+    padding: 20px; /* Add padding as needed */
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+  
+  .section2-text {
+    flex: 1; /* Allow the text section to grow to fill available space */
+    padding: 20px; /* Add padding as needed */
+    margin-left:50px;
+  }
+
+  
+  
+  .section2-image {
+    flex: 1;
+    text-align: center; /* Center-align the image and text */
+  }
+  
+  .section2-image img {
+    max-width: 100%; /* Ensure the image width doesn't exceed its container */
+    height: auto; /* Automatically adjust the height to maintain aspect ratio */
+    max-height: 900px; /* Set the maximum height to your desired value */
+  }
+  
+  /* Add media queries for responsive design */
+  @media (max-width: 768px) {
+    .section2-container {
+      flex-direction: column-reverse;
+      
+      margin-left: 20px;
+    margin-right: 20px;
+    }
+  
+    
+  
+    .section2-text p {
+      font-size: 16px; /* Reduce font size for mobile */
+    }
+  
+    /* Hide the third <p> tag on mobile */
+    .section2-text p:nth-child(3) {
+      display: none;
+    }
+  }
+
+
+  .read-more-button {
+    background-color: #ffcc99;
+    border-radius: 5px;
+    color: #333;
+    border: none;
+    padding: 15px 50px;
+    font-size: 12px;
+    cursor: pointer;
+    font-weight: bold;
+    
+   
+    
+  }
+  
+  .arrow-icon {
+    margin-left: 40px; /* Adjust the margin to control the space between the icon and text */
+    vertical-align: middle; /* Vertically align the icon with the text */
+  }
+  
+  
+  
+  .p-tag{
+    font-size: 30px;
+  }
+  
+  
